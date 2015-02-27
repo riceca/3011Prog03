@@ -246,7 +246,7 @@ public class cardFrame extends JFrame implements MouseListener, MouseMotionListe
         }
         if(hasWon())
         {
-            JOptionPane.showMessageDialog(layeredPane, "Winner winner chicken dinner!");
+            JOptionPane.showMessageDialog(layeredPane, "Winner winner chicken dinner! You beat the game of Carpet Solitaire!");
         }
         dragging_card = null;
     }
