@@ -111,10 +111,8 @@ public class Main
         }
         // Shuffle the deck
         Collections.shuffle(deck);
-        int col = 0;
-        int row = 0;
+
         // Add Mouse listeners and add it to the panel
-        int counter = 0;
         panel.setBorder(BorderFactory.createEmptyBorder(5, 5+CARD_WIDTH, 5, 5));
 
         for(JLabel card: deck)
