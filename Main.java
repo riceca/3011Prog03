@@ -70,6 +70,12 @@ public class Main
             }
             me.getComponent().setLocation(newX, newY);
         }
+
+        public void mouseReleased (MouseEvent me)
+	{
+		me.getComponent().getParent().validate();
+	        me.getComponent().getParent().repaint();
+	}
     };
 
     /**
